@@ -107,6 +107,6 @@ body, html {
     padding: 0px
   }
 
-  .md-nav-bar{
-    background-color: white;
+  md-nav-bar .md-nav-bar {
+    background: rgb(255, 255, 255);
   }
