@@ -3,7 +3,7 @@ myApp.controller('NavController', function($interval){
     let nc=this;
 
     function AppCtrl(){
-        nc.currentNavItem = '/';
+        nc.currentNavItem = '/#/';
     }
     
 });//End Nav Controller
