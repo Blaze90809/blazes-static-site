@@ -110,3 +110,7 @@ body, html {
   md-nav-bar .md-nav-bar {
     background: rgb(255, 255, 255);
   }
+
+  md-nav-bar-list .md-nav-bar-list {
+    padding-left: 100px;
+  }
