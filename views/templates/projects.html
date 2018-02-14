@@ -23,7 +23,7 @@
         </md-card-content>
     </md-card>
     <md-card>
-        <img ng-src="{{pc.pitchAidPath}}" class="md-card-image, cardImg" al="Pitch Aid">
+        <img ng-src="{{pc.pitchAidPath}}" class="md-card-image, cardImg" alt="Pitch Aid">
         <md-card-title>
             <md-card-title-text>
                 <span class="md-headline">Pitch Aid</span>
@@ -44,5 +44,24 @@
             <md-button class="md-primary" ng-href="{{pc.pitchAidGitHub}}" target="_blank">Pitch Aid GitHub</md-button>
         </md-card-content>
     </md-card>
-
+    <md-card>
+        <img ng-src="{{pc.kioskPath}}" class="md-card-image, cardImg" alt="Pitch Aid">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Kiosk App</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+            <p>
+                This Kiosk application is written to match a touch-screen kiosk that allows customers to purchase items. The full-stack application
+                stores products in a Mongo database and utilizes GET routes to display items by category. The program is
+                written using the MEAN stack - Mongo, Express, AngularJS, and Node.js.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> AngularJS, Express, Node.js, MongoDB
+            </p>
+            <md-button class="md-primary" ng-href="{{pc.kioskURL}}" target="_blank">Kiosk App URL</md-button>
+            <md-button class="md-primary" ng-href="{{pc.kioskGitHub}}" target="_blank">Kiosk App GitHub</md-button>
+        </md-card-content>
+    </md-card>
 </div>
